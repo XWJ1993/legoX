@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		3379568E2445C061007C81CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3379568D2445C061007C81CB /* AppDelegate.m */; };
-		337956942445C061007C81CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337956932445C061007C81CB /* ViewController.m */; };
 		337956972445C061007C81CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337956952445C061007C81CB /* Main.storyboard */; };
 		337956992445C062007C81CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337956982445C062007C81CB /* Assets.xcassets */; };
 		3379569C2445C062007C81CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3379569A2445C062007C81CB /* LaunchScreen.storyboard */; };
 		3379569F2445C062007C81CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3379569E2445C062007C81CB /* main.m */; };
 		337956A92445C062007C81CB /* legoXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 337956A82445C062007C81CB /* legoXTests.m */; };
 		337956B42445C062007C81CB /* legoXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 337956B32445C062007C81CB /* legoXUITests.m */; };
+		337956CE2445C9A0007C81CB /* LGMIneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337956CD2445C9A0007C81CB /* LGMIneViewController.swift */; };
+		337956D02445CC7A007C81CB /* LGNewMarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337956CF2445CC7A007C81CB /* LGNewMarketViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +39,6 @@
 		337956892445C061007C81CB /* legoX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = legoX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3379568C2445C061007C81CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3379568D2445C061007C81CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		337956922445C061007C81CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		337956932445C061007C81CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		337956962445C061007C81CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		337956982445C062007C81CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3379569B2445C062007C81CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +51,9 @@
 		337956B32445C062007C81CB /* legoXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = legoXUITests.m; sourceTree = "<group>"; };
 		337956B52445C062007C81CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		337956C12445C3E9007C81CB /* legoX.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = legoX.pch; sourceTree = "<group>"; };
+		337956CD2445C9A0007C81CB /* LGMIneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMIneViewController.swift; sourceTree = "<group>"; };
+		337956CF2445CC7A007C81CB /* LGNewMarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGNewMarketViewController.swift; sourceTree = "<group>"; };
+		337956D22445CCF0007C81CB /* legoX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "legoX-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,11 +104,20 @@
 		3379568B2445C061007C81CB /* legoX */ = {
 			isa = PBXGroup;
 			children = (
+				337956C42445C699007C81CB /* Resources */,
+				337956C22445C699007C81CB /* Libs */,
+				337956C72445C699007C81CB /* Category */,
+				337956C62445C699007C81CB /* Utils */,
+				337956C32445C699007C81CB /* Login */,
+				337956C52445C699007C81CB /* Commons */,
+				337956C92445C8E7007C81CB /* LegoX */,
+				337956CA2445C8E7007C81CB /* ShoppingMall */,
+				337956CB2445C8E7007C81CB /* NewMarket */,
+				337956C82445C8E6007C81CB /* MinePage */,
 				3379568C2445C061007C81CB /* AppDelegate.h */,
 				3379568D2445C061007C81CB /* AppDelegate.m */,
+				337956D22445CCF0007C81CB /* legoX-Bridging-Header.h */,
 				337956C12445C3E9007C81CB /* legoX.pch */,
-				337956922445C061007C81CB /* ViewController.h */,
-				337956932445C061007C81CB /* ViewController.m */,
 				337956952445C061007C81CB /* Main.storyboard */,
 				337956982445C062007C81CB /* Assets.xcassets */,
 				3379569A2445C062007C81CB /* LaunchScreen.storyboard */,
@@ -132,6 +143,78 @@
 				337956B52445C062007C81CB /* Info.plist */,
 			);
 			path = legoXUITests;
+			sourceTree = "<group>";
+		};
+		337956C22445C699007C81CB /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		337956C32445C699007C81CB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		337956C42445C699007C81CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		337956C52445C699007C81CB /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		337956C62445C699007C81CB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		337956C72445C699007C81CB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		337956C82445C8E6007C81CB /* MinePage */ = {
+			isa = PBXGroup;
+			children = (
+				337956CD2445C9A0007C81CB /* LGMIneViewController.swift */,
+			);
+			path = MinePage;
+			sourceTree = "<group>";
+		};
+		337956C92445C8E7007C81CB /* LegoX */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LegoX;
+			sourceTree = "<group>";
+		};
+		337956CA2445C8E7007C81CB /* ShoppingMall */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ShoppingMall;
+			sourceTree = "<group>";
+		};
+		337956CB2445C8E7007C81CB /* NewMarket */ = {
+			isa = PBXGroup;
+			children = (
+				337956CF2445CC7A007C81CB /* LGNewMarketViewController.swift */,
+			);
+			path = NewMarket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +284,7 @@
 				TargetAttributes = {
 					337956882445C061007C81CB = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 					337956A32445C062007C81CB = {
 						CreatedOnToolsVersion = 11.4;
@@ -264,8 +348,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				337956942445C061007C81CB /* ViewController.m in Sources */,
 				3379568E2445C061007C81CB /* AppDelegate.m in Sources */,
+				337956CE2445C9A0007C81CB /* LGMIneViewController.swift in Sources */,
+				337956D02445CC7A007C81CB /* LGNewMarketViewController.swift in Sources */,
 				3379569F2445C062007C81CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = legoX/legoX.pch;
@@ -447,6 +533,9 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dreamit.legoX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "legoX/legoX-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -455,6 +544,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_BITCODE = NO;
 				GCC_PREFIX_HEADER = legoX/legoX.pch;
@@ -467,6 +557,7 @@
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dreamit.legoX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -474,6 +565,7 @@
 		337956BC2445C062007C81CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = legoXTests/Info.plist;
@@ -493,6 +585,7 @@
 		337956BD2445C062007C81CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = legoXTests/Info.plist;
@@ -512,6 +605,7 @@
 		337956BF2445C062007C81CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = legoXUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -529,6 +623,7 @@
 		337956C02445C062007C81CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = legoXUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

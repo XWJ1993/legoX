@@ -6,10 +6,14 @@
 //  Copyright © 2020 dreamit. All rights reserved.
 //
 
+
+/**
+ 此文件的路径需要配置
+ */
 #ifndef legoX_pch
 #define legoX_pch
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "legoX-Swift.h"
 
-#endif /* legoX_pch */
+
+#endif
