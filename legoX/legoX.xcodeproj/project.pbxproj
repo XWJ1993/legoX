@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3379568E2445C061007C81CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3379568D2445C061007C81CB /* AppDelegate.m */; };
-		337956912445C061007C81CB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 337956902445C061007C81CB /* SceneDelegate.m */; };
 		337956942445C061007C81CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337956932445C061007C81CB /* ViewController.m */; };
 		337956972445C061007C81CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337956952445C061007C81CB /* Main.storyboard */; };
 		337956992445C062007C81CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337956982445C062007C81CB /* Assets.xcassets */; };
@@ -39,8 +38,6 @@
 		337956892445C061007C81CB /* legoX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = legoX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3379568C2445C061007C81CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3379568D2445C061007C81CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3379568F2445C061007C81CB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		337956902445C061007C81CB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		337956922445C061007C81CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		337956932445C061007C81CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		337956962445C061007C81CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +51,7 @@
 		337956AF2445C062007C81CB /* legoXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = legoXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		337956B32445C062007C81CB /* legoXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = legoXUITests.m; sourceTree = "<group>"; };
 		337956B52445C062007C81CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		337956C12445C3E9007C81CB /* legoX.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = legoX.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +104,7 @@
 			children = (
 				3379568C2445C061007C81CB /* AppDelegate.h */,
 				3379568D2445C061007C81CB /* AppDelegate.m */,
-				3379568F2445C061007C81CB /* SceneDelegate.h */,
-				337956902445C061007C81CB /* SceneDelegate.m */,
+				337956C12445C3E9007C81CB /* legoX.pch */,
 				337956922445C061007C81CB /* ViewController.h */,
 				337956932445C061007C81CB /* ViewController.m */,
 				337956952445C061007C81CB /* Main.storyboard */,
@@ -270,7 +267,6 @@
 				337956942445C061007C81CB /* ViewController.m in Sources */,
 				3379568E2445C061007C81CB /* AppDelegate.m in Sources */,
 				3379569F2445C062007C81CB /* main.m in Sources */,
-				337956912445C061007C81CB /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -440,14 +436,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = legoX/legoX.pch;
 				INFOPLIST_FILE = legoX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dreamit.legoX;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamit.legoX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,14 +456,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = legoX/legoX.pch;
 				INFOPLIST_FILE = legoX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dreamit.legoX;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dreamit.legoX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
