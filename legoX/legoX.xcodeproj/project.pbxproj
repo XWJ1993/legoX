@@ -20,6 +20,9 @@
 		33B5511B244B342D00C6DAA0 /* LGNewMarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B5511A244B342D00C6DAA0 /* LGNewMarketViewController.swift */; };
 		33B5511D244B344400C6DAA0 /* LGShoppingMallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B5511C244B344300C6DAA0 /* LGShoppingMallViewController.swift */; };
 		33B5511F244B346500C6DAA0 /* LGlegoXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B5511E244B346500C6DAA0 /* LGlegoXViewController.swift */; };
+		33B55122244B40EB00C6DAA0 /* LGCodeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B55121244B40EB00C6DAA0 /* LGCodeLoginViewController.swift */; };
+		33B55124244B410500C6DAA0 /* LGBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B55123244B410500C6DAA0 /* LGBaseViewController.swift */; };
+		33B55128244B42D400C6DAA0 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B55127244B42D400C6DAA0 /* UILabelExtension.swift */; };
 		80A4E618D403233258419CA6 /* Pods_legoX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E97C88D0F862515F30AE6A9 /* Pods_legoX.framework */; };
 		C5D210293003B079500D4D80 /* Pods_legoX_legoXUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1220F25574815803EF33627 /* Pods_legoX_legoXUITests.framework */; };
 		C710032A74FEFB48317AE13B /* Pods_legoXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08638D521F78DC63F7B41D97 /* Pods_legoXTests.framework */; };
@@ -68,6 +71,9 @@
 		33B5511A244B342D00C6DAA0 /* LGNewMarketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGNewMarketViewController.swift; sourceTree = "<group>"; };
 		33B5511C244B344300C6DAA0 /* LGShoppingMallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGShoppingMallViewController.swift; sourceTree = "<group>"; };
 		33B5511E244B346500C6DAA0 /* LGlegoXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGlegoXViewController.swift; sourceTree = "<group>"; };
+		33B55121244B40EB00C6DAA0 /* LGCodeLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGCodeLoginViewController.swift; sourceTree = "<group>"; };
+		33B55123244B410500C6DAA0 /* LGBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGBaseViewController.swift; sourceTree = "<group>"; };
+		33B55127244B42D400C6DAA0 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
 		3CBB4495AB1D280F8F4E5556 /* Pods-legoX-legoXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-legoX-legoXUITests.debug.xcconfig"; path = "Target Support Files/Pods-legoX-legoXUITests/Pods-legoX-legoXUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E97C88D0F862515F30AE6A9 /* Pods_legoX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_legoX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9515354344D0BF728E51D4F6 /* Pods-legoXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-legoXTests.debug.xcconfig"; path = "Target Support Files/Pods-legoXTests/Pods-legoXTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -182,6 +188,7 @@
 		337956C32445C699007C81CB /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				33B55120244B40D900C6DAA0 /* Controllers */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -211,6 +218,7 @@
 		337956C72445C699007C81CB /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				33B55127244B42D400C6DAA0 /* UILabelExtension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -254,6 +262,7 @@
 				33B55109244B316B00C6DAA0 /* LGTabBarController.m */,
 				33B5510B244B323A00C6DAA0 /* LGNavigationController.h */,
 				33B5510C244B323A00C6DAA0 /* LGNavigationController.m */,
+				33B55123244B410500C6DAA0 /* LGBaseViewController.swift */,
 			);
 			path = ContainControllers;
 			sourceTree = "<group>";
@@ -286,6 +295,14 @@
 			isa = PBXGroup;
 			children = (
 				33B5511A244B342D00C6DAA0 /* LGNewMarketViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		33B55120244B40D900C6DAA0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				33B55121244B40EB00C6DAA0 /* LGCodeLoginViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -517,12 +534,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				33B5511F244B346500C6DAA0 /* LGlegoXViewController.swift in Sources */,
+				33B55122244B40EB00C6DAA0 /* LGCodeLoginViewController.swift in Sources */,
 				33B55118244B342100C6DAA0 /* LGMIneViewController.swift in Sources */,
 				33B5510A244B316B00C6DAA0 /* LGTabBarController.m in Sources */,
+				33B55124244B410500C6DAA0 /* LGBaseViewController.swift in Sources */,
 				33B5511B244B342D00C6DAA0 /* LGNewMarketViewController.swift in Sources */,
 				3379568E2445C061007C81CB /* AppDelegate.m in Sources */,
 				33B5510D244B323A00C6DAA0 /* LGNavigationController.m in Sources */,
 				33B5511D244B344400C6DAA0 /* LGShoppingMallViewController.swift in Sources */,
+				33B55128244B42D400C6DAA0 /* UILabelExtension.swift in Sources */,
 				3379569F2445C062007C81CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

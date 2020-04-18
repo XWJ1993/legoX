@@ -11,7 +11,7 @@ import UIKit
  @brief legoX首页
  @author 谢吴军
  */
-class LGlegoXViewController: UIViewController {
+class LGlegoXViewController: LGBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

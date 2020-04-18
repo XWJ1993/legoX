@@ -11,7 +11,7 @@ import UIKit
 @brief 商城首页
 @author 谢吴军
 */
-class LGShoppingMallViewController: UIViewController {
+class LGShoppingMallViewController: LGBaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
