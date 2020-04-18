@@ -17,12 +17,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    [self setupWindow];
+
+    return YES;
+}
+
+#pragma mark - 基本框架
+-(void)setupWindow {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [UIViewController new];
+    LGTabBarController *tab_VC = [[LGTabBarController alloc] init];
+    LGNavigationController *nav_VC = [[LGNavigationController alloc]initWithRootViewController:tab_VC];
+    self.window.rootViewController = nav_VC;
     [self.window makeKeyAndVisible];
-    
-    return YES;
 }
 
 @end

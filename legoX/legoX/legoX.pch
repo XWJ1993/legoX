@@ -13,7 +13,11 @@
 #ifndef legoX_pch
 #define legoX_pch
 
+// oc和swift混编
 #import "legoX-Swift.h"
+// 页面
+#import "LGTabBarController.h"
+#import "LGNavigationController.h"
 
 
 #endif

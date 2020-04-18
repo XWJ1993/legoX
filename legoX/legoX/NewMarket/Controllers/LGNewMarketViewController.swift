@@ -1,5 +1,5 @@
 //
-//  LGMIneViewController.swift
+//  LGNewMarketViewController.swift
 //  legoX
 //
 //  Created by 谢吴军 on 2020/4/14.
@@ -7,12 +7,16 @@
 //
 
 import UIKit
-
-class LGMIneViewController: UIViewController {
+/**
+@brief 牛市首页
+@author 谢吴军
+*/
+class LGNewMarketViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         
     }
+
 }

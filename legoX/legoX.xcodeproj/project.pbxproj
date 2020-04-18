@@ -14,8 +14,12 @@
 		3379569F2445C062007C81CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3379569E2445C062007C81CB /* main.m */; };
 		337956A92445C062007C81CB /* legoXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 337956A82445C062007C81CB /* legoXTests.m */; };
 		337956B42445C062007C81CB /* legoXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 337956B32445C062007C81CB /* legoXUITests.m */; };
-		337956CE2445C9A0007C81CB /* LGMIneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337956CD2445C9A0007C81CB /* LGMIneViewController.swift */; };
-		337956D02445CC7A007C81CB /* LGNewMarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337956CF2445CC7A007C81CB /* LGNewMarketViewController.swift */; };
+		33B5510A244B316B00C6DAA0 /* LGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B55109244B316B00C6DAA0 /* LGTabBarController.m */; };
+		33B5510D244B323A00C6DAA0 /* LGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B5510C244B323A00C6DAA0 /* LGNavigationController.m */; };
+		33B55118244B342100C6DAA0 /* LGMIneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B55117244B342100C6DAA0 /* LGMIneViewController.swift */; };
+		33B5511B244B342D00C6DAA0 /* LGNewMarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B5511A244B342D00C6DAA0 /* LGNewMarketViewController.swift */; };
+		33B5511D244B344400C6DAA0 /* LGShoppingMallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B5511C244B344300C6DAA0 /* LGShoppingMallViewController.swift */; };
+		33B5511F244B346500C6DAA0 /* LGlegoXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B5511E244B346500C6DAA0 /* LGlegoXViewController.swift */; };
 		80A4E618D403233258419CA6 /* Pods_legoX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E97C88D0F862515F30AE6A9 /* Pods_legoX.framework */; };
 		C5D210293003B079500D4D80 /* Pods_legoX_legoXUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1220F25574815803EF33627 /* Pods_legoX_legoXUITests.framework */; };
 		C710032A74FEFB48317AE13B /* Pods_legoXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08638D521F78DC63F7B41D97 /* Pods_legoXTests.framework */; };
@@ -55,9 +59,15 @@
 		337956B32445C062007C81CB /* legoXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = legoXUITests.m; sourceTree = "<group>"; };
 		337956B52445C062007C81CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		337956C12445C3E9007C81CB /* legoX.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = legoX.pch; sourceTree = "<group>"; };
-		337956CD2445C9A0007C81CB /* LGMIneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGMIneViewController.swift; sourceTree = "<group>"; };
-		337956CF2445CC7A007C81CB /* LGNewMarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGNewMarketViewController.swift; sourceTree = "<group>"; };
 		337956D22445CCF0007C81CB /* legoX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "legoX-Bridging-Header.h"; sourceTree = "<group>"; };
+		33B55108244B316B00C6DAA0 /* LGTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGTabBarController.h; sourceTree = "<group>"; };
+		33B55109244B316B00C6DAA0 /* LGTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGTabBarController.m; sourceTree = "<group>"; };
+		33B5510B244B323A00C6DAA0 /* LGNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LGNavigationController.h; sourceTree = "<group>"; };
+		33B5510C244B323A00C6DAA0 /* LGNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGNavigationController.m; sourceTree = "<group>"; };
+		33B55117244B342100C6DAA0 /* LGMIneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGMIneViewController.swift; sourceTree = "<group>"; };
+		33B5511A244B342D00C6DAA0 /* LGNewMarketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LGNewMarketViewController.swift; sourceTree = "<group>"; };
+		33B5511C244B344300C6DAA0 /* LGShoppingMallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGShoppingMallViewController.swift; sourceTree = "<group>"; };
+		33B5511E244B346500C6DAA0 /* LGlegoXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGlegoXViewController.swift; sourceTree = "<group>"; };
 		3CBB4495AB1D280F8F4E5556 /* Pods-legoX-legoXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-legoX-legoXUITests.debug.xcconfig"; path = "Target Support Files/Pods-legoX-legoXUITests/Pods-legoX-legoXUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E97C88D0F862515F30AE6A9 /* Pods_legoX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_legoX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9515354344D0BF728E51D4F6 /* Pods-legoXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-legoXTests.debug.xcconfig"; path = "Target Support Files/Pods-legoXTests/Pods-legoXTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -186,6 +196,7 @@
 		337956C52445C699007C81CB /* Commons */ = {
 			isa = PBXGroup;
 			children = (
+				33B55107244B314600C6DAA0 /* ContainControllers */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -207,7 +218,7 @@
 		337956C82445C8E6007C81CB /* MinePage */ = {
 			isa = PBXGroup;
 			children = (
-				337956CD2445C9A0007C81CB /* LGMIneViewController.swift */,
+				33B55116244B342100C6DAA0 /* Controllers */,
 			);
 			path = MinePage;
 			sourceTree = "<group>";
@@ -215,6 +226,7 @@
 		337956C92445C8E7007C81CB /* LegoX */ = {
 			isa = PBXGroup;
 			children = (
+				33B5510E244B33A600C6DAA0 /* Controllers */,
 			);
 			path = LegoX;
 			sourceTree = "<group>";
@@ -222,6 +234,7 @@
 		337956CA2445C8E7007C81CB /* ShoppingMall */ = {
 			isa = PBXGroup;
 			children = (
+				33B55112244B33D800C6DAA0 /* Controllers */,
 			);
 			path = ShoppingMall;
 			sourceTree = "<group>";
@@ -229,9 +242,52 @@
 		337956CB2445C8E7007C81CB /* NewMarket */ = {
 			isa = PBXGroup;
 			children = (
-				337956CF2445CC7A007C81CB /* LGNewMarketViewController.swift */,
+				33B55119244B342D00C6DAA0 /* Controllers */,
 			);
 			path = NewMarket;
+			sourceTree = "<group>";
+		};
+		33B55107244B314600C6DAA0 /* ContainControllers */ = {
+			isa = PBXGroup;
+			children = (
+				33B55108244B316B00C6DAA0 /* LGTabBarController.h */,
+				33B55109244B316B00C6DAA0 /* LGTabBarController.m */,
+				33B5510B244B323A00C6DAA0 /* LGNavigationController.h */,
+				33B5510C244B323A00C6DAA0 /* LGNavigationController.m */,
+			);
+			path = ContainControllers;
+			sourceTree = "<group>";
+		};
+		33B5510E244B33A600C6DAA0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				33B5511E244B346500C6DAA0 /* LGlegoXViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		33B55112244B33D800C6DAA0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				33B5511C244B344300C6DAA0 /* LGShoppingMallViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		33B55116244B342100C6DAA0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				33B55117244B342100C6DAA0 /* LGMIneViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		33B55119244B342D00C6DAA0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				33B5511A244B342D00C6DAA0 /* LGNewMarketViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		B26C31F5C11E820E3A33C826 /* Frameworks */ = {
@@ -254,7 +310,6 @@
 				9515354344D0BF728E51D4F6 /* Pods-legoXTests.debug.xcconfig */,
 				BFB46D182FF17E9171D24911 /* Pods-legoXTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -461,9 +516,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33B5511F244B346500C6DAA0 /* LGlegoXViewController.swift in Sources */,
+				33B55118244B342100C6DAA0 /* LGMIneViewController.swift in Sources */,
+				33B5510A244B316B00C6DAA0 /* LGTabBarController.m in Sources */,
+				33B5511B244B342D00C6DAA0 /* LGNewMarketViewController.swift in Sources */,
 				3379568E2445C061007C81CB /* AppDelegate.m in Sources */,
-				337956CE2445C9A0007C81CB /* LGMIneViewController.swift in Sources */,
-				337956D02445CC7A007C81CB /* LGNewMarketViewController.swift in Sources */,
+				33B5510D244B323A00C6DAA0 /* LGNavigationController.m in Sources */,
+				33B5511D244B344400C6DAA0 /* LGShoppingMallViewController.swift in Sources */,
 				3379569F2445C062007C81CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
