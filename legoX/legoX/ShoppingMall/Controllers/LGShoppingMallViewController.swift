@@ -7,10 +7,7 @@
 //
 
 import UIKit
-/**
-@brief 商城首页
-@author 谢吴军
-*/
+// 商城首页
 class LGShoppingMallViewController: LGBaseViewController {
 
     override func viewDidLoad() {

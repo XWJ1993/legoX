@@ -18,6 +18,8 @@
 // 页面
 #import "LGTabBarController.h"
 #import "LGNavigationController.h"
+// 第三方库
+#import "IQKeyboardManager.h"
 
 
 #endif

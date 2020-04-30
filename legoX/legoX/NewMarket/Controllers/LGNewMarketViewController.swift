@@ -7,10 +7,7 @@
 //
 
 import UIKit
-/**
-@brief 牛市首页
-@author 谢吴军
-*/
+// 牛市首页
 class LGNewMarketViewController: LGBaseViewController {
 
     override func viewDidLoad() {

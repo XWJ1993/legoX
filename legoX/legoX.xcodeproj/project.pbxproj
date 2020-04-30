@@ -23,6 +23,9 @@
 		33B55122244B40EB00C6DAA0 /* LGCodeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B55121244B40EB00C6DAA0 /* LGCodeLoginViewController.swift */; };
 		33B55124244B410500C6DAA0 /* LGBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B55123244B410500C6DAA0 /* LGBaseViewController.swift */; };
 		33B55128244B42D400C6DAA0 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B55127244B42D400C6DAA0 /* UILabelExtension.swift */; };
+		33E25010245AB657006D2EBC /* LGGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E2500F245AB657006D2EBC /* LGGuideViewController.swift */; };
+		33E25013245AB76C006D2EBC /* LGAppInitSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E25012245AB76C006D2EBC /* LGAppInitSetting.swift */; };
+		33E25016245ABA17006D2EBC /* LGUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E25015245ABA17006D2EBC /* LGUserManager.swift */; };
 		80A4E618D403233258419CA6 /* Pods_legoX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E97C88D0F862515F30AE6A9 /* Pods_legoX.framework */; };
 		C5D210293003B079500D4D80 /* Pods_legoX_legoXUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1220F25574815803EF33627 /* Pods_legoX_legoXUITests.framework */; };
 		C710032A74FEFB48317AE13B /* Pods_legoXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08638D521F78DC63F7B41D97 /* Pods_legoXTests.framework */; };
@@ -74,6 +77,9 @@
 		33B55121244B40EB00C6DAA0 /* LGCodeLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGCodeLoginViewController.swift; sourceTree = "<group>"; };
 		33B55123244B410500C6DAA0 /* LGBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGBaseViewController.swift; sourceTree = "<group>"; };
 		33B55127244B42D400C6DAA0 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		33E2500F245AB657006D2EBC /* LGGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGGuideViewController.swift; sourceTree = "<group>"; };
+		33E25012245AB76C006D2EBC /* LGAppInitSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGAppInitSetting.swift; sourceTree = "<group>"; };
+		33E25015245ABA17006D2EBC /* LGUserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGUserManager.swift; sourceTree = "<group>"; };
 		3CBB4495AB1D280F8F4E5556 /* Pods-legoX-legoXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-legoX-legoXUITests.debug.xcconfig"; path = "Target Support Files/Pods-legoX-legoXUITests/Pods-legoX-legoXUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E97C88D0F862515F30AE6A9 /* Pods_legoX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_legoX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9515354344D0BF728E51D4F6 /* Pods-legoXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-legoXTests.debug.xcconfig"; path = "Target Support Files/Pods-legoXTests/Pods-legoXTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -204,6 +210,8 @@
 			isa = PBXGroup;
 			children = (
 				33B55107244B314600C6DAA0 /* ContainControllers */,
+				33E25014245AB9FD006D2EBC /* AppManager */,
+				33E25011245AB738006D2EBC /* AppSetting */,
 			);
 			path = Commons;
 			sourceTree = "<group>";
@@ -263,6 +271,7 @@
 				33B5510B244B323A00C6DAA0 /* LGNavigationController.h */,
 				33B5510C244B323A00C6DAA0 /* LGNavigationController.m */,
 				33B55123244B410500C6DAA0 /* LGBaseViewController.swift */,
+				33E2500F245AB657006D2EBC /* LGGuideViewController.swift */,
 			);
 			path = ContainControllers;
 			sourceTree = "<group>";
@@ -307,6 +316,22 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		33E25011245AB738006D2EBC /* AppSetting */ = {
+			isa = PBXGroup;
+			children = (
+				33E25012245AB76C006D2EBC /* LGAppInitSetting.swift */,
+			);
+			path = AppSetting;
+			sourceTree = "<group>";
+		};
+		33E25014245AB9FD006D2EBC /* AppManager */ = {
+			isa = PBXGroup;
+			children = (
+				33E25015245ABA17006D2EBC /* LGUserManager.swift */,
+			);
+			path = AppManager;
+			sourceTree = "<group>";
+		};
 		B26C31F5C11E820E3A33C826 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,6 +366,7 @@
 				337956852445C061007C81CB /* Sources */,
 				337956862445C061007C81CB /* Frameworks */,
 				337956872445C061007C81CB /* Resources */,
+				496F215A79EBF1C1FF7A1F1B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -378,6 +404,7 @@
 				337956AB2445C062007C81CB /* Sources */,
 				337956AC2445C062007C81CB /* Frameworks */,
 				337956AD2445C062007C81CB /* Resources */,
+				FBC12061854D4B871A759E75 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -460,6 +487,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		496F215A79EBF1C1FF7A1F1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-legoX/Pods-legoX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-legoX/Pods-legoX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-legoX/Pods-legoX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7A4AAC0D5A3969B8139B685B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -526,6 +570,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FBC12061854D4B871A759E75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-legoX-legoXUITests/Pods-legoX-legoXUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-legoX-legoXUITests/Pods-legoX-legoXUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-legoX-legoXUITests/Pods-legoX-legoXUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -535,15 +596,18 @@
 			files = (
 				33B5511F244B346500C6DAA0 /* LGlegoXViewController.swift in Sources */,
 				33B55122244B40EB00C6DAA0 /* LGCodeLoginViewController.swift in Sources */,
+				33E25010245AB657006D2EBC /* LGGuideViewController.swift in Sources */,
 				33B55118244B342100C6DAA0 /* LGMIneViewController.swift in Sources */,
 				33B5510A244B316B00C6DAA0 /* LGTabBarController.m in Sources */,
 				33B55124244B410500C6DAA0 /* LGBaseViewController.swift in Sources */,
 				33B5511B244B342D00C6DAA0 /* LGNewMarketViewController.swift in Sources */,
 				3379568E2445C061007C81CB /* AppDelegate.m in Sources */,
 				33B5510D244B323A00C6DAA0 /* LGNavigationController.m in Sources */,
+				33E25013245AB76C006D2EBC /* LGAppInitSetting.swift in Sources */,
 				33B5511D244B344400C6DAA0 /* LGShoppingMallViewController.swift in Sources */,
 				33B55128244B42D400C6DAA0 /* UILabelExtension.swift in Sources */,
 				3379569F2445C062007C81CB /* main.m in Sources */,
+				33E25016245ABA17006D2EBC /* LGUserManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

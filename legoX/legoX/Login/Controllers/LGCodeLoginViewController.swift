@@ -7,10 +7,7 @@
 //
 
 import UIKit
-/**
-@brief 验证码登录
-@author 谢吴军
-*/
+// 验证码登录
 class LGCodeLoginViewController: LGBaseViewController {
     
     fileprivate lazy var titleLabel: UILabel = {

@@ -7,10 +7,7 @@
 //
 
 import UIKit
-/**
-@brief 我的
-@author 谢吴军
-*/
+// 我的首页
 class LGMineViewController: LGBaseViewController {
 
     override func viewDidLoad() {

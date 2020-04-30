@@ -6,6 +6,9 @@ target 'legoX' do
   use_frameworks!
 
   # Pods for legoX
+  # pod install和pod update的区别
+  pod 'IQKeyboardManager', '~> 5.0.7'
+  
 
   target 'legoXTests' do
     inherit! :search_paths

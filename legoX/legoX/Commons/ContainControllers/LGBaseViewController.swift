@@ -7,10 +7,7 @@
 //
 
 import UIKit
-/**
-@brief 基础视图
-@author 谢吴军
-*/
+// 基础视图
 class LGBaseViewController: UIViewController {
 
     override func viewDidLoad() {
