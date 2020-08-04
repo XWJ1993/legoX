@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,7 +22,7 @@
 		33B5511F244B346500C6DAA0 /* LGlegoXViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B5511E244B346500C6DAA0 /* LGlegoXViewController.swift */; };
 		33B55122244B40EB00C6DAA0 /* LGCodeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B55121244B40EB00C6DAA0 /* LGCodeLoginViewController.swift */; };
 		33B55124244B410500C6DAA0 /* LGBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B55123244B410500C6DAA0 /* LGBaseViewController.swift */; };
-		33B55128244B42D400C6DAA0 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B55127244B42D400C6DAA0 /* UILabelExtension.swift */; };
+		33B55128244B42D400C6DAA0 /* UIKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B55127244B42D400C6DAA0 /* UIKitExtension.swift */; };
 		33E25010245AB657006D2EBC /* LGGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E2500F245AB657006D2EBC /* LGGuideViewController.swift */; };
 		33E25013245AB76C006D2EBC /* LGAppInitSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E25012245AB76C006D2EBC /* LGAppInitSetting.swift */; };
 		33E25016245ABA17006D2EBC /* LGUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E25015245ABA17006D2EBC /* LGUserManager.swift */; };
@@ -76,7 +76,7 @@
 		33B5511E244B346500C6DAA0 /* LGlegoXViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGlegoXViewController.swift; sourceTree = "<group>"; };
 		33B55121244B40EB00C6DAA0 /* LGCodeLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGCodeLoginViewController.swift; sourceTree = "<group>"; };
 		33B55123244B410500C6DAA0 /* LGBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGBaseViewController.swift; sourceTree = "<group>"; };
-		33B55127244B42D400C6DAA0 /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		33B55127244B42D400C6DAA0 /* UIKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtension.swift; sourceTree = "<group>"; };
 		33E2500F245AB657006D2EBC /* LGGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGGuideViewController.swift; sourceTree = "<group>"; };
 		33E25012245AB76C006D2EBC /* LGAppInitSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGAppInitSetting.swift; sourceTree = "<group>"; };
 		33E25015245ABA17006D2EBC /* LGUserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGUserManager.swift; sourceTree = "<group>"; };
@@ -226,7 +226,7 @@
 		337956C72445C699007C81CB /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				33B55127244B42D400C6DAA0 /* UILabelExtension.swift */,
+				33B55127244B42D400C6DAA0 /* UIKitExtension.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -605,7 +605,7 @@
 				33B5510D244B323A00C6DAA0 /* LGNavigationController.m in Sources */,
 				33E25013245AB76C006D2EBC /* LGAppInitSetting.swift in Sources */,
 				33B5511D244B344400C6DAA0 /* LGShoppingMallViewController.swift in Sources */,
-				33B55128244B42D400C6DAA0 /* UILabelExtension.swift in Sources */,
+				33B55128244B42D400C6DAA0 /* UIKitExtension.swift in Sources */,
 				3379569F2445C062007C81CB /* main.m in Sources */,
 				33E25016245ABA17006D2EBC /* LGUserManager.swift in Sources */,
 			);
