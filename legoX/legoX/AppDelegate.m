@@ -14,7 +14,7 @@
 
 @implementation AppDelegate
 
-
+// 什么是SafeArea - iPhoneX除掉上部44/下部34的剩下区域
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     [self initSetting];
